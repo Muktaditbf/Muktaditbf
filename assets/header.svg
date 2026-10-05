@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0118"/>
+      <stop offset="55%" stop-color="#120428"/>
+      <stop offset="100%" stop-color="#03141f"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2bd6">
+        <animate attributeName="stop-color" values="#ff2bd6;#00f0ff;#a855f7;#ff2bd6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00f0ff">
+        <animate attributeName="stop-color" values="#00f0ff;#a855f7;#ff2bd6;#00f0ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#a855f7" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <style>
+      .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+      .title{font-weight:800;font-size:84px;letter-spacing:10px}
+      .sub{font-size:22px;letter-spacing:4px;fill:#c4b5fd}
+      .tag{font-size:15px;letter-spacing:3px}
+      .blink{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .g1{animation:g1 3.2s infinite}
+      .g2{animation:g2 3.2s infinite}
+      @keyframes g1{0%,86%,100%{transform:translate(0,0);opacity:0}88%{transform:translate(-6px,2px);opacity:.8}92%{transform:translate(5px,-2px);opacity:.8}}
+      @keyframes g2{0%,86%,100%{transform:translate(0,0);opacity:0}89%{transform:translate(6px,-1px);opacity:.8}93%{transform:translate(-4px,2px);opacity:.8}}
+      .pulse{animation:pulse 2.4s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+      .fadeup{animation:fadeup 1.4s ease-out both}
+      @keyframes fadeup{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)">
+      <animate attributeName="y" values="0;40" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- floating particles -->
+    <g fill="#00f0ff" filter="url(#softglow)">
+      <circle cx="90" cy="260" r="2"><animate attributeName="cy" values="300;-10" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="240" cy="200" r="1.6" fill="#ff2bd6"><animate attributeName="cy" values="320;-10" dur="9s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="420" cy="280" r="1.4"><animate attributeName="cy" values="330;-10" dur="11s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="780" cy="240" r="2" fill="#a855f7"><animate attributeName="cy" values="320;-10" dur="8s" begin="0.5s" repeatCount="indefinite"/></circle>
+      <circle cx="960" cy="300" r="1.5"><animate attributeName="cy" values="330;-10" dur="10s" begin="3s" repeatCount="indefinite"/></circle>
+      <circle cx="1110" cy="220" r="2" fill="#ff2bd6"><animate attributeName="cy" values="320;-10" dur="7.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- corner brackets -->
+    <g fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#softglow)">
+      <path d="M24 64V24H64"/><path d="M1136 24H1176V64"/>
+      <path d="M24 256V296H64"/><path d="M1176 256V296H1136"/>
+    </g>
+
+    <!-- terminal prompt -->
+    <text x="60" y="70" class="mono tag" fill="#00f0ff" filter="url(#softglow)">root@muktadi:~$ ./init --profile<tspan class="blink" fill="#ff2bd6"> █</tspan></text>
+
+    <!-- name with glitch layers -->
+    <g class="mono title" text-anchor="middle">
+      <text x="600" y="178" fill="#ff2bd6" class="g1">MUKTADI</text>
+      <text x="600" y="178" fill="#00f0ff" class="g2">MUKTADI</text>
+      <text x="600" y="178" fill="url(#neon)" filter="url(#glow)" class="fadeup">MUKTADI</text>
+    </g>
+
+    <text x="600" y="222" text-anchor="middle" class="mono sub fadeup">FULL-STACK AI DEVELOPER  //  CSE · SEU</text>
+
+    <!-- status chips -->
+    <g class="mono tag" text-anchor="middle">
+      <g class="pulse"><rect x="145" y="248" width="290" height="30" rx="15" fill="none" stroke="#a855f7"/><text x="290" y="268" fill="#e9d5ff">AI ENGINEER · BUILDING</text></g>
+      <g class="pulse" style="animation-delay:.8s"><rect x="455" y="248" width="290" height="30" rx="15" fill="none" stroke="#00f0ff"/><text x="600" y="268" fill="#a5f3fc">CYBERSECURITY</text></g>
+      <g class="pulse" style="animation-delay:1.6s"><rect x="765" y="248" width="290" height="30" rx="15" fill="none" stroke="#ff2bd6"/><text x="910" y="268" fill="#fbcfe8">SWE · BUILDING</text></g>
+    </g>
+
+    <!-- scanline sweep -->
+    <rect x="0" y="-80" width="1200" height="80" fill="url(#scan)">
+      <animate attributeName="y" values="-80;320" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="18" fill="none" stroke="url(#neon)" stroke-opacity="0.6" stroke-width="2"/>
+</svg>
