@@ -82,12 +82,12 @@ const muktadi = {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Muktaditbf&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0118&title_color=ff2bd6&icon_color=00f0ff&text_color=c4b5fd&ring_color=a855f7" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Muktaditbf&custom_title=Muktadi%27s%20GitHub%20Stats&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0118&title_color=ff2bd6&icon_color=00f0ff&text_color=c4b5fd&ring_color=a855f7" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Muktaditbf&layout=compact&langs_count=8&hide_border=true&bg_color=0a0118&title_color=ff2bd6&text_color=c4b5fd" />
 
 <img width="100%" src="https://streak-stats.demolab.com?user=Muktaditbf&hide_border=true&background=0A0118&ring=A855F7&fire=FF2BD6&currStreakLabel=00F0FF&sideLabels=C4B5FD&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B7FB0" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Muktaditbf&bg_color=0a0118&color=c4b5fd&line=ff2bd6&point=00f0ff&area=true&area_color=a855f7&hide_border=true" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Muktaditbf&theme=radical" />
 
 </div>
 
