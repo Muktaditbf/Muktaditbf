@@ -69,10 +69,10 @@ const muktadi = {
 |:-:|---|---|---|
 | 🥇 | **[Course-Grounded Study Assistant](https://github.com/Muktaditbf/Course-Grounded-Study-Assistant)** | Android AI tutor that answers **only** from teacher-approved course material — and refuses instead of hallucinating. Web edition with role-based auth in [Project](https://github.com/Muktaditbf/Project). | `Java` `Android` `AI` `React` `PostgreSQL` |
 | 🥈 | **[MESS-PRO](https://github.com/Muktaditbf/MESS-PRO)** | Full-stack mess / shared-meal management platform backed by Supabase auth & database. | `Next.js 16` `React 19` `Supabase` `Tailwind` |
-| 🥉 | **[TAKA-BRIDGE](https://github.com/Muktaditbf/TAKA-BRIDGE-Currency-Converter)** | Currency converter for BDT ⇄ world currencies with a database-backed core. | `Java` `PL/SQL` `CSS` |
+| 🥉 | **[TAKA-BRIDGE](https://github.com/Muktaditbf/TAKA-BRIDGE-Currency-Converter)** | Converts between 23 currencies centred on the Taka (৳): layered MVC with Servlets/JSP, an Oracle DB and zero JavaScript. | `Java` `JSP` `Tomcat` `Oracle` |
 | 4 | **[Cyber-Security-Project](https://github.com/Muktaditbf/Cyber-Security-Project)** | Penetration-testing assessment portfolio from controlled lab engagements, with defensive recommendations. | `Kali` `Metasploit` `Windows` |
-| 5 | **[Soccer-Manager](https://github.com/Muktaditbf/Soccer-Manager)** | Desktop soccer team manager with a JavaFX GUI. | `Java` `JavaFX` |
-| 6 | **[CSE Student Routine](https://github.com/Muktaditbf/cse_studet_routine.exe)** | Class-routine web app for CSE students. | `React` `Vite` |
+| 5 | **[Soccer-Manager](https://github.com/Muktaditbf/Soccer-Manager)** | Sports club manager: player signing, matches and training sessions. | `Java` `JavaFX` `SQLite` |
+| 6 | **[CSE Student Routine](https://github.com/Muktaditbf/cse_studet_routine.exe)** | Animated daily-routine dashboard with focus mode for CSE students. | `React` `Vite` `Framer Motion` |
 | 7 | **[Islamic Reference Tool](https://github.com/Muktaditbf/Islamic-Reference-Tool-)** | Finds Quran & Hadith evidence (Dalil) by topic. | `Python` |
 | 8 | **[VibrantQRCode](https://github.com/Muktaditbf/VibrantQRCode)** | Gradient QR codes with center logo and high error correction. | `Python` |
 
