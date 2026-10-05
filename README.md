@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="MUKTADI — Full-Stack AI Developer · CSE · Southeast University · Dhaka"/>
+<img src="./assets/header.webp" width="100%" alt="MUKTADI — Full-Stack AI Developer · CSE · Southeast University · Dhaka"/>
 
 <a href="https://github.com/Muktaditbf"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=900&color=FF6A2B&center=true&vCenter=true&width=760&height=48&lines=%F0%9F%94%A5+Building+AI+that+answers+only+from+the+truth;Full-stack+%3A+Next.js+%C2%B7+React+%C2%B7+Supabase+%C2%B7+PostgreSQL;Python+main+%C2%B7+Java+%C2%B7+TypeScript+%C2%B7+C;Breaking+systems+on+Kali+%E2%80%94+to+secure+them;AI+Engineer+%26+Software+Engineer+%E2%80%94+on+build" alt="Typing intro"/></a>
 
@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/STATUS-FORGING-ffb21f?style=for-the-badge&labelColor=1a0604" alt="status"/>
 </p>
 
-<img src="./assets/sec-whoami.svg" width="80%" alt="Whoami"/>
+<img src="./assets/sec-whoami.webp" width="100%" alt="Whoami"/>
 
 </div>
 
@@ -33,7 +33,7 @@ class Muktadi:
 
 <div align="center">
 
-<img src="./assets/sec-arsenal.svg" width="80%" alt="Arsenal"/>
+<img src="./assets/sec-arsenal.webp" width="100%" alt="Arsenal"/>
 
 <br/>
 
@@ -43,9 +43,7 @@ class Muktadi:
 <br/>
 <img src="https://skillicons.dev/icons?i=git,github,linux,kali,bash,vscode,idea,mysql&theme=dark" alt="Tools"/>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-<img src="./assets/sec-projects.svg" width="80%" alt="Projects"/>
+<img src="./assets/sec-projects.webp" width="100%" alt="Projects"/>
 
 <br/>
 
@@ -69,9 +67,7 @@ class Muktadi:
 
 <div align="center">
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-<img src="./assets/sec-stats.svg" width="80%" alt="Battle stats"/>
+<img src="./assets/sec-stats.webp" width="100%" alt="Battle stats"/>
 
 <br/>
 
@@ -86,9 +82,7 @@ class Muktadi:
   <img alt="Fire snake eating my contributions" src="https://raw.githubusercontent.com/Muktaditbf/Muktaditbf/output/github-snake-dark.svg"/>
 </picture>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
-
-<img src="./assets/sec-now.svg" width="80%" alt="Currently"/>
+<img src="./assets/sec-now.webp" width="100%" alt="Currently"/>
 
 </div>
 
@@ -100,7 +94,7 @@ class Muktadi:
 
 <div align="center">
 
-<img src="./assets/sec-connect.svg" width="80%" alt="Summon me"/>
+<img src="./assets/sec-connect.webp" width="100%" alt="Summon me"/>
 
 <br/>
 
@@ -112,6 +106,10 @@ class Muktadi:
 
 <br/><br/>
 
-<img src="./assets/footer.svg" width="100%" alt="Ship it. Secure it. Make it smarter."/>
+<sub>🔥 Every flame on this page is rendered procedurally in Python + NumPy, no stock footage. <a href="./render">See the renderer →</a></sub>
+
+<br/><br/>
+
+<img src="./assets/footer.webp" width="100%" alt="Ship it. Secure it. Make it smarter."/>
 
 </div>
