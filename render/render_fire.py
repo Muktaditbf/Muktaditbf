@@ -76,8 +76,8 @@ def scenes():
         Scene("footer", 1280, 320, 60, 24, flame_h=175, seed=23, q=80, embers=60, bokeh=4, front=0.3,
               hot=1.5, shine=2.2, gain=0.88, title=Line("SHIP IT · SECURE IT · MAKE IT SMARTER", 36, 100, weight=900, track=0.12)),
     ]
-    for i, (slug, label) in enumerate([("whoami", "WHOAMI"), ("arsenal", "ARSENAL"), ("projects", "PROJECTS"),
-                                        ("stats", "BATTLE STATS"), ("now", "CURRENTLY"), ("connect", "SUMMON ME")]):
+    for i, (slug, label) in enumerate([("about", "ABOUT ME"), ("projects", "FEATURED PROJECTS"), ("stack", "TECH STACK"),
+                                        ("activity", "GITHUB ACTIVITY"), ("connect", "CONNECT")]):
         out.append(Scene(f"sec-{slug}", 1280, 150, 40, 20, flame_h=62, seed=101 + i * 17, embers=26, bokeh=2,
                          title=Line(label, 46, 58, weight=900, track=0.3), front=0.2, haze=1.2, radius=14, q=70,
                          s=0.5, gain=0.8, hvar=0.22, hot=1.5, shine=2.4))
