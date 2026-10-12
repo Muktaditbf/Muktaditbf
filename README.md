@@ -65,7 +65,7 @@ class Muktadi:
 | 8 | **[MESS-PRO](https://github.com/Muktaditbf/MESS-PRO)** · [live](https://mess-pro-olive.vercel.app) | Shared-meal manager: meals, bazar, deposits, meal rate and balances | Next.js · Supabase · TypeScript |
 | 9 | **[Study Assistant Web](https://github.com/Muktaditbf/Project)** | Web edition of the Study Assistant (in progress): role-based JWT auth and a PostgreSQL + pgvector schema | React · TypeScript · Node.js · PostgreSQL |
 | 10 | **[Cyber Security Project](https://github.com/Muktaditbf/Cyber-Security-Project)** | Penetration-test reports from controlled lab engagements, with defensive recommendations | Kali Linux · Pentesting |
-| 11 | **[CSE Student Routine](https://github.com/Muktaditbf/cse_studet_routine.exe)** | Animated daily-routine dashboard with focus mode, live clock and progress | React · Vite · Framer Motion |
+| 11 | **[CSE Student Routine](https://github.com/Muktaditbf/cse-student-routine)** | Animated daily-routine dashboard with focus mode, live clock and progress | React · Vite · Framer Motion |
 | 12 | **[Soccer Manager](https://github.com/Muktaditbf/Soccer-Manager)** | Club management desktop app: player signing, matches and training | Java · JavaFX · SQLite |
 | 13 | **[VibrantQRCode](https://github.com/Muktaditbf/VibrantQRCode)** | Gradient QR codes with a centre logo and high error correction | Python · Pillow |
 | 14 | **[TaskMaster](https://github.com/Muktaditbf/TaskMaster)** | Bangla to-do app with dark mode that works offline | HTML · Tailwind CSS |
