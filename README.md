@@ -12,7 +12,6 @@
 </p>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=Muktaditbf&label=PROFILE+VIEWS&color=ff4a0a&style=for-the-badge&labelColor=1a0604" alt="Profile views"/>
   <a href="https://github.com/Muktaditbf?tab=followers"><img src="https://img.shields.io/github/followers/Muktaditbf?label=FOLLOWERS&style=for-the-badge&color=ff4a0a&labelColor=1a0604&logo=github&logoColor=ffb21f" alt="Followers"/></a>
   <img src="https://img.shields.io/badge/OPEN_TO-INTERNSHIPS-ffb21f?style=for-the-badge&labelColor=1a0604" alt="Open to internships"/>
 </p>
