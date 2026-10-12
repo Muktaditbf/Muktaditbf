@@ -24,7 +24,7 @@
 class Muktadi:
     role        = ["CSE Student · 4th Year", "Aspiring AI Engineer", "Software Developer"]
     university  = "Southeast University, Dhaka 🇧🇩"
-    focus       = "Grounded AI: assistants that cite sources and never hallucinate"
+    focus       = "Grounded AI: assistants that cite their sources and decline instead of guessing"
     building    = ["LLM apps & RAG", "Real-time ML (Kafka, Flink, LightGBM)", "Full-stack web apps"]
     learning    = ["RAG evaluation", "MLOps", "System design"]
     stack = {
@@ -74,7 +74,7 @@ class Muktadi:
 
 <img src="./assets/h-stack.png" width="100%" alt="Tech stack"/>
 
-<img src="https://skillicons.dev/icons?i=python,java,ts,js,c,cpp,html,css&theme=dark" alt="Python, Java, TypeScript, JavaScript, C, C++, HTML, CSS"/>
+<img src="https://skillicons.dev/icons?i=python,java,ts,js,c,html,css&theme=dark" alt="Python, Java, TypeScript, JavaScript, C, C++, HTML, CSS"/>
 <br/>
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,tailwind,vite,androidstudio,supabase&theme=dark" alt="React, Next.js, Node.js, FastAPI, Tailwind CSS, Vite, Android Studio, Supabase"/>
 <br/>
