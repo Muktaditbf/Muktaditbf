@@ -45,9 +45,9 @@ class Muktadi:
 <a href="https://github.com/Muktaditbf/churnpulse-customer-churn-prediction"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Muktaditbf&repo=churnpulse-customer-churn-prediction&hide_border=true&bg_color=0b0203&title_color=ff5a12&icon_color=ffb21f&text_color=f3d9c9" alt="ChurnPulse: real-time customer churn prediction"/></a>
 <a href="https://github.com/Muktaditbf/Course-Grounded-Study-Assistant"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Muktaditbf&repo=Course-Grounded-Study-Assistant&hide_border=true&bg_color=0b0203&title_color=ff5a12&icon_color=ffb21f&text_color=f3d9c9" alt="Course-Grounded Study Assistant"/></a>
 <a href="https://github.com/Muktaditbf/at-your-age"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Muktaditbf&repo=at-your-age&hide_border=true&bg_color=0b0203&title_color=ff5a12&icon_color=ffb21f&text_color=f3d9c9" alt="At Your Age"/></a>
-<a href="https://github.com/Muktaditbf/Campus-Club-Event-Manager"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Muktaditbf&repo=Campus-Club-Event-Manager&hide_border=true&bg_color=0b0203&title_color=ff5a12&icon_color=ffb21f&text_color=f3d9c9" alt="Campus Club and Event Manager"/></a>
-<a href="https://github.com/Muktaditbf/TakaBridge"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Muktaditbf&repo=TakaBridge&hide_border=true&bg_color=0b0203&title_color=ff5a12&icon_color=ffb21f&text_color=f3d9c9" alt="TakaBridge"/></a>
+<a href="https://github.com/Muktaditbf/bd-house-price"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Muktaditbf&repo=bd-house-price&hide_border=true&bg_color=0b0203&title_color=ff5a12&icon_color=ffb21f&text_color=f3d9c9" alt="Bangladesh House Price Prediction"/></a>
 <a href="https://github.com/Muktaditbf/repolens"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Muktaditbf&repo=repolens&hide_border=true&bg_color=0b0203&title_color=ff5a12&icon_color=ffb21f&text_color=f3d9c9" alt="RepoLens"/></a>
+<a href="https://github.com/Muktaditbf/Campus-Club-Event-Manager"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Muktaditbf&repo=Campus-Club-Event-Manager&hide_border=true&bg_color=0b0203&title_color=ff5a12&icon_color=ffb21f&text_color=f3d9c9" alt="Campus Club and Event Manager"/></a>
 
 </div>
 
@@ -58,17 +58,18 @@ class Muktadi:
 | 1 | **[ChurnPulse](https://github.com/Muktaditbf/churnpulse-customer-churn-prediction)** | Real-time churn prediction: persona-based LightGBM models (85.5% accuracy, ROC-AUC 0.92 on held-out customers), Kafka + Flink streaming, SHAP explanations, retention dashboard | Python · LightGBM · Kafka · Flink · FastAPI · React |
 | 2 | **[Course-Grounded Study Assistant](https://github.com/Muktaditbf/Course-Grounded-Study-Assistant)** | Android tutor that answers only from teacher-approved material, cites its sources, and declines instead of hallucinating | Java · Android · RAG · Firebase |
 | 3 | **[At Your Age…](https://github.com/Muktaditbf/at-your-age)** · [live](https://muktaditbf.github.io/at-your-age/) | Newspaper front pages of what famous people did at your age, from live Wikidata, tested end to end | TypeScript · React · SPARQL · Playwright |
-| 4 | **[Campus Club & Event Manager](https://github.com/Muktaditbf/Campus-Club-Event-Manager)** | MySQL stored procedures and triggers, with a Next.js dashboard and an in-browser SQL lab | Next.js · MySQL · TypeScript |
-| 5 | **[TakaBridge](https://github.com/Muktaditbf/TakaBridge)** | Currency converter for Bangladesh: cheapest exchange routes, remittance calculator, rate trends and alerts | Java · Jakarta EE · Oracle |
-| 6 | **[RepoLens](https://github.com/Muktaditbf/repolens)** · [live](https://muktaditbf.github.io/repolens/) | No-login health check for any public GitHub repository, with specific next steps | JavaScript · GitHub API |
-| 7 | **[Dude, Where's My Stuff?](https://github.com/Muktaditbf/dude-wheres-my-stuff)** · [live](https://muktaditbf.github.io/dude-wheres-my-stuff/) | Offline-first app that remembers where you put things, from plain-language input | TypeScript · React · PWA · Playwright |
-| 8 | **[MESS-PRO](https://github.com/Muktaditbf/MESS-PRO)** · [live](https://mess-pro-olive.vercel.app) | Shared-meal manager: meals, bazar, deposits, meal rate and balances | Next.js · Supabase · TypeScript |
-| 9 | **[Study Assistant Web](https://github.com/Muktaditbf/Project)** | Web edition of the Study Assistant (in progress): role-based JWT auth and a PostgreSQL + pgvector schema | React · TypeScript · Node.js · PostgreSQL |
-| 10 | **[Cyber Security Project](https://github.com/Muktaditbf/Cyber-Security-Project)** | Penetration-test reports from controlled lab engagements, with defensive recommendations | Kali Linux · Pentesting |
-| 11 | **[CSE Student Routine](https://github.com/Muktaditbf/cse-student-routine)** | Animated daily-routine dashboard with focus mode, live clock and progress | React · Vite · Framer Motion |
-| 12 | **[Soccer Manager](https://github.com/Muktaditbf/Soccer-Manager)** | Club management desktop app: player signing, matches and training | Java · JavaFX · SQLite |
-| 13 | **[VibrantQRCode](https://github.com/Muktaditbf/VibrantQRCode)** | Gradient QR codes with a centre logo and high error correction | Python · Pillow |
-| 14 | **[TaskMaster](https://github.com/Muktaditbf/TaskMaster)** | Bangla to-do app with dark mode that works offline | HTML · Tailwind CSS |
+| 4 | **[Bangladesh House Price](https://github.com/Muktaditbf/bd-house-price)** | Predicts flat prices across 5 cities within ~15% on average (R² 0.82, 5-fold CV); caught duplicate listings that were inflating the baseline score | Python · scikit-learn · pandas |
+| 5 | **[RepoLens](https://github.com/Muktaditbf/repolens)** · [live](https://muktaditbf.github.io/repolens/) | No-login health check for any public GitHub repository, with specific next steps | JavaScript · GitHub API |
+| 6 | **[Campus Club & Event Manager](https://github.com/Muktaditbf/Campus-Club-Event-Manager)** | MySQL stored procedures and triggers, with a Next.js dashboard and an in-browser SQL lab | Next.js · MySQL · TypeScript |
+| 7 | **[TakaBridge](https://github.com/Muktaditbf/TakaBridge)** | Currency converter for Bangladesh: cheapest exchange routes, remittance calculator, rate trends and alerts | Java · Jakarta EE · Oracle |
+| 8 | **[Dude, Where's My Stuff?](https://github.com/Muktaditbf/dude-wheres-my-stuff)** · [live](https://muktaditbf.github.io/dude-wheres-my-stuff/) | Offline-first app that remembers where you put things, from plain-language input | TypeScript · React · PWA · Playwright |
+| 9 | **[MESS-PRO](https://github.com/Muktaditbf/MESS-PRO)** · [live](https://mess-pro-olive.vercel.app) | Shared-meal manager: meals, bazar, deposits, meal rate and balances | Next.js · Supabase · TypeScript |
+| 10 | **[Study Assistant Web](https://github.com/Muktaditbf/Project)** | Web edition of the Study Assistant (in progress): role-based JWT auth and a PostgreSQL + pgvector schema | React · TypeScript · Node.js · PostgreSQL |
+| 11 | **[Cyber Security Project](https://github.com/Muktaditbf/Cyber-Security-Project)** | Penetration-test reports from controlled lab engagements, with defensive recommendations | Kali Linux · Pentesting |
+| 12 | **[CSE Student Routine](https://github.com/Muktaditbf/cse-student-routine)** | Animated daily-routine dashboard with focus mode, live clock and progress | React · Vite · Framer Motion |
+| 13 | **[Soccer Manager](https://github.com/Muktaditbf/Soccer-Manager)** | Club management desktop app: player signing, matches and training | Java · JavaFX · SQLite |
+| 14 | **[VibrantQRCode](https://github.com/Muktaditbf/VibrantQRCode)** | Gradient QR codes with a centre logo and high error correction | Python · Pillow |
+| 15 | **[TaskMaster](https://github.com/Muktaditbf/TaskMaster)** | Bangla to-do app with dark mode that works offline | HTML · Tailwind CSS |
 
 <div align="center">
 
